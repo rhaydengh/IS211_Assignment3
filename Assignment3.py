@@ -43,6 +43,6 @@ def parse_csv(csvdata):
     if max(count_firefox, count_msie, count_safari) == count_safari:
         print "The most popular browser today is Safari"
     elif max(count_firefox, count_msie, count_safari) == count_msie:
-        print "Internet Explorer"
+        print "The most popular browser today is Internet Explorer"
     elif max(count_firefox, count_msie, count_safari) == count_firefox:
-        print "Firefox"
+        print "The most popular browser today is Firefox"
