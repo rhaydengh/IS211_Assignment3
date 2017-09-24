@@ -8,10 +8,6 @@ import csv
 from StringIO import StringIO
 import re
 
-response = urllib2.urlopen('http://s3.amazonaws.com/cuny-is211-spring2015/weblog.csv')
-return response.read()
-
-
 def downloadData(url):
     """This function downloads data from a url"""
 
