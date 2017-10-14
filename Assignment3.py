@@ -8,6 +8,7 @@ import csv
 from StringIO import StringIO
 import re
 
+
 def downloadData(url):
     """This function downloads data from a url"""
 
@@ -43,6 +44,6 @@ def parse_csv(csvdata):
     if max(count_firefox, count_msie, count_safari) == count_safari:
         print "The most popular browser today is Safari"
     elif max(count_firefox, count_msie, count_safari) == count_msie:
-        print "The most popular browser today is Internet Explorer"
+        print "Internet Explorer"
     elif max(count_firefox, count_msie, count_safari) == count_firefox:
-        print "The most popular browser today is Firefox"
+        print "Firefox"
